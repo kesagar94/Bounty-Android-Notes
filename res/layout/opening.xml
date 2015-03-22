@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#567891"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10sp" >
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Bounty"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20sp">
+
+        <Button
+            android:id="@+id/bAddNote"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:background="#358D68"
+            android:text="Add\nNote"
+            android:textColor="#00ffff" 
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/bViewNote"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:background="#358D68"
+            android:text="View\nNotes"
+            android:textColor="#00ffff"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20sp">
+
+        <Button
+            android:id="@+id/bAddTDL"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:background="#358D68"
+            android:text="Add\nTo-Do list"
+            android:textColor="#00ffff" 
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/bViewTDL"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:background="#358D68"
+            android:text="View\nTo-Do list"
+            android:textColor="#00ffff"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+
+</LinearLayout>
